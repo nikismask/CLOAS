@@ -43,11 +43,10 @@ cloas_simulator.py
 │   └── 8. reports()                 - In-force listing, premium summary, lapsed policies
 │
 └── Data (in-memory dictionaries)
-├── policies        - Issued policies (POLxxx)
-├── pending_cases   - New business awaiting underwriting (NBxxx)
-├── clients         - Client master records
-└── payments_log    - Payment history per policy
-
+    ├── policies        - Issued policies (POLxxx)
+    ├── pending_cases   - New business awaiting underwriting (NBxxx)
+    ├── clients         - Client master records
+    └── payments_log    - Payment history per policy
 
 ## How to Run
 
