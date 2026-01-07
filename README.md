@@ -18,7 +18,7 @@ This program recreates the classic "green screen" experience with authentic layo
 - Dynamic data updates (in-memory)
 
 ## Project Structure
-
+```
 cloas_simulator.py
 │
 ├── Main Program
@@ -47,7 +47,7 @@ cloas_simulator.py
     ├── pending_cases   - New business awaiting underwriting (NBxxx)
     ├── clients         - Client master records
     └── payments_log    - Payment history per policy
-
+```
 ## How to Run
 
 ### Requirements
@@ -58,7 +58,7 @@ cloas_simulator.py
 ### Execution
 ```bash
 python cloas_simulator.py
-
+```
 Navigation Guide
 
 Type menu numbers 1–8 to select options
